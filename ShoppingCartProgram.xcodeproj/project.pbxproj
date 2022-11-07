@@ -17,6 +17,8 @@
 		4A06C337291007EB00189C6E /* ShoppingCartProgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A06C336291007EB00189C6E /* ShoppingCartProgramTests.swift */; };
 		4A06C341291007EC00189C6E /* ShoppingCartProgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A06C340291007EC00189C6E /* ShoppingCartProgramUITests.swift */; };
 		4A06C343291007EC00189C6E /* ShoppingCartProgramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A06C342291007EC00189C6E /* ShoppingCartProgramUITestsLaunchTests.swift */; };
+		4A0CA4AE29114A8700301CA8 /* ItemClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CA4AD29114A8700301CA8 /* ItemClass.swift */; };
+		4A98B4E92915434200DE3960 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98B4E82915434200DE3960 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		4A06C33C291007EC00189C6E /* ShoppingCartProgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCartProgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A06C340291007EC00189C6E /* ShoppingCartProgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartProgramUITests.swift; sourceTree = "<group>"; };
 		4A06C342291007EC00189C6E /* ShoppingCartProgramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartProgramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A0CA4AD29114A8700301CA8 /* ItemClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemClass.swift; sourceTree = "<group>"; };
+		4A98B4E82915434200DE3960 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				4A06C31E291007EB00189C6E /* SceneDelegate.swift */,
 				4A06C320291007EB00189C6E /* ViewController.swift */,
 				4A06C322291007EB00189C6E /* Main.storyboard */,
+				4A98B4E82915434200DE3960 /* CustomCell.swift */,
+				4A0CA4AD29114A8700301CA8 /* ItemClass.swift */,
 				4A06C328291007EB00189C6E /* Assets.xcassets */,
 				4A06C32A291007EB00189C6E /* LaunchScreen.storyboard */,
 				4A06C32D291007EB00189C6E /* Info.plist */,
@@ -263,7 +269,9 @@
 			files = (
 				4A06C327291007EB00189C6E /* ShoppingCartProgram.xcdatamodeld in Sources */,
 				4A06C321291007EB00189C6E /* ViewController.swift in Sources */,
+				4A0CA4AE29114A8700301CA8 /* ItemClass.swift in Sources */,
 				4A06C31D291007EB00189C6E /* AppDelegate.swift in Sources */,
+				4A98B4E92915434200DE3960 /* CustomCell.swift in Sources */,
 				4A06C31F291007EB00189C6E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
